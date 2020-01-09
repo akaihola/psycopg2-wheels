@@ -47,7 +47,7 @@ if [ ! -d "${OPENSSL_DIR}" ]; then curl -sL \
         exit 1
     fi
 else
-    cd "{OPENSSL_DIR}"
+    cd "${OPENSSL_DIR}"
 fi
 
 # Install openssl
